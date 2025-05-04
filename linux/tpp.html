@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École Horizon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>École Horizon</h1>
+            <p>Construire l'avenir dès aujourd'hui</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">École Horizon</a>
+            </div>
+            <div class="nav-links">
+                <a href="#apropos">À propos</a>
+                <a href="#matieres">Matières</a>
+                <a href="#equipe">Équipe</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="auth-buttons">
+                <a href="#connexion" class="btn-outline">Se connecter</a>
+                <a href="#inscription" class="btn-primary">S'inscrire</a>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="apropos" class="container">
+        <h2>À propos de notre école</h2>
+        <p>École Horizon est un établissement moderne qui met l'accent sur l'innovation, l'excellence académique et le développement personnel de chaque élève.</p>
+        <p>Nous offrons un cadre d’apprentissage sûr et inspirant pour préparer les leaders de demain.</p>
+    </section>
+
+    <section id="matieres" class="container">
+        <h2>Nos matières principales</h2>
+        <div class="grid">
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (3).jpeg" alt="Mathématiques">
+                <h3>Mathématiques</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (4).jpeg" alt="Sciences">
+                <h3>Sciences</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (5).jpeg" alt="Français">
+                <h3>Français</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (6).jpeg" alt="Histoire-Géographie">
+                <h3>Histoire-Géographie</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (7).jpeg" alt="Informatique">
+                <h3>Informatique</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (8).jpeg" alt="Anglais">
+                <h3>Anglais</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (9).jpeg" alt="physique">
+                <h3>physique</h3>
+            </div>
+            <div class="subject-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (10).jpeg" alt="technique">
+                <h3>technique</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="container">
+        <h2>Notre équipe enseignante</h2>
+        <div class="grid">
+            <div class="teacher-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (1).jpeg" alt="Mme Dupont">
+                <h3>Mme Dupont</h3>
+                <p>Professeure de Mathématiques</p>
+            </div>
+            <div class="teacher-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement.jpeg" alt="M. Martin">
+                <h3>M. Martin</h3>
+                <p>Professeur de Sciences</p>
+            </div>
+            <div class="teacher-card">
+                <img src="c:\Users\yassine marzouki\Downloads\téléchargement (2).jpeg" alt="Mme Lopez">
+                <h3>Mme Lopez</h3>
+                <p>Professeure de Français</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+            <button type="reset">Annuler</button>
+        </form>
+    </section>
+    <section id="inscription" class="container">
+        <h2>Inscription</h2>
+        <form class="form-box">
+            <label for="nom">Nom complet :</label>
+            <input type="text" id="nom" name="nom" required>
+    
+            <label for="email">Adresse email :</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mdp">Mot de passe :</label>
+            <input type="password" id="mdp" name="mdp" required>
+    
+            <label for="confirm-mdp">Confirmer le mot de passe :</label>
+            <input type="password" id="confirm-mdp" name="confirm-mdp" required>
+    
+            <button type="submit">S'inscrire</button>
+        </form>
+    </section>
+    
+    <section id="connexion" class="container">
+        <h2>Connexion</h2>
+        <form class="form-box">
+            <label for="email-login">Adresse email :</label>
+            <input type="email" id="email-login" name="email-login" required>
+    
+            <label for="mdp-login">Mot de passe :</label>
+            <input type="password" id="mdp-login" name="mdp-login" required>
+    
+            <button type="submit">Se connecter</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 École Horizon. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
